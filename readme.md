@@ -1,7 +1,7 @@
-#SPACED OUT - Indie Project
+# SPACED OUT - Indie Project
 
 
-Description:
+## Description:
 
 Welcome to my project. I have chosen to code a website for a fictional company, SPACED OUT, which rents out tiny houses.
 
