@@ -60,7 +60,7 @@ main {
     width: 500px; /* Adjust the width as desired */
     height: 500px; /* Adjust the height as desired */
     border-radius: 0 100% 100% 0; /* Adjust the border-radius as desired */
-    background-color: rgb(208, 222, 148);
+    /* background-color: rgb(208, 222, 148); Color used before picture was chosen - kept to use as a placeholder in case I change my mind */
     background-image: url("img/house1/TinyHouse1-1.jpg");
     float: left;
   }
