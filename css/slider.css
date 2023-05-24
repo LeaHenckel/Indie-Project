@@ -1,0 +1,9 @@
+.slider {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+  }
