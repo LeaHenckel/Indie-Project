@@ -1,13 +1,15 @@
-/* div[name="houseOne"],
-div[name="houseTwo"],
-div[name="houseThree"],
-div[name="houseFour"],
-div[name="houseFive"] {
-    border: 1px solid rgb(208, 222, 148);
-    padding: 10px;
-    margin-bottom: 10px; /* Add margin at the bottom of each div 
-    font-size: x-small;
-} */
+.reservationButton {
+  font-size: xx-small; /* Justerer tekststørrelsen for at gøre knappen mindre */
+  padding: 4px 8px; /* Justerer padding for at gøre knappen mindre */
+  background-color: #128b52;
+  border: none;
+  color: rgb(208, 222, 148);
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
 
 /*.imageHouseOne,
 [name^="imageHouse"] {
