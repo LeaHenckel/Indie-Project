@@ -1,0 +1,109 @@
+html, body {
+    background-color: #1D5534;
+    color: white;
+    box-sizing: border-box;
+    font-family: Cambria, Georgia, serif;
+}
+
+/* .headerLogo {
+    font-size: larger;
+    width: 10px;
+    height: 10px;
+} */
+
+/* Styling af SPACED OUT logo  */
+img {
+    width: 400px;
+    height: 100px;
+}  
+
+/* Nedstående er navigation */
+.primaryNavigation {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+/* Styling af Li'er */
+.primaryNavigation__menuItem {
+    list-style: none;
+}
+
+/* Styling af links (a-tags)*/
+.primaryNavigation__link {
+    text-decoration: none;
+    color: white;
+    font-family: inherit; 
+}
+
+/* Styling af burger menu */
+.burgerMenuButton {
+    display: none; 
+}
+
+main {
+    border: 2px solid rgb(225, 232, 170);
+    padding: 2px;
+    margin: 20px;
+}
+
+.content {
+    overflow: auto;
+  }
+
+#h1 {
+    text-align: right;  
+}
+
+/* Styling af billede i main */
+#frontImage {
+    width: 500px; /* Adjust the width as desired */
+    height: 500px; /* Adjust the height as desired */
+    border-radius: 0 100% 100% 0; /* Adjust the border-radius as desired */
+    background-color: rgb(208, 222, 148);
+    background-image: url("img/house1/TinyHouse1-1.jpg");
+    float: left;
+  }
+
+
+  #firstParagh {
+    margin-left: 320px; /* Adjust the spacing between the paragraph and the half circle */
+  }
+
+  /* Styling af knappen */
+  .button {
+    background-color: #128b52;
+    border: none;
+    color: rgb(208, 222, 148);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+
+  #frontPageAdress {
+    text-align: center;
+  }
+
+/* Styling af billederne i footeren */
+.footer a img{
+    width:20px;
+    height:20px;
+}
+
+
+/* Styling af mobile version */
+ @media screen and (max-width: 660px) {
+    img {
+         width: 400px;
+         height: 400px!;
+    }
+    .burgerMenuButton {
+        display: inline;
+        border: none;
+        background: transparent;
+    }
+} 

@@ -5,34 +5,119 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Indie projekt</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="import.css">
 </head>
 <body>
-    <header><img src="img/Spaced Out.USE.png" id="headerLogo" srcset="">
-        <nav>
-            <ul class="navbar_links">
-              <li class="navbar_linkitem"><a href="index.html" class="navbar_link">HOMEPAGE</a></li>
-              <li class="navbar_linkitem"><a href="houses.html" class="navbar_link">HOUSES</a></li>
-              <li class="navbar_linkitem"><a href="about_us.html" class="navbar_link">ABOUT US</a></li>
-              <li class="navbar_linkitem"><a href="reservations.html" class="navbar_link">RESERVATIONS</a></li>
-            </ul>
-          </nav>
-    </header>
+  <header>
+    <a href="index.html"><img src="img/logos/Spaced Out.USE.png" id="headerLogo">
+    <button class="burgerMenuButton">
+      <i data-feather="menu"></i>
+      <span class="sr-only"><menu></menu></span>
+    </button>
+      <nav>
+          <ul class="primaryNavigation" aria-hidden="true">
+            <li class="primaryNavigation__menuItem"><a href="index.html" class="primaryNavigation__link">HOMEPAGE</a></li>
+            <li class="primaryNavigation__menuItem"><a href="houses.html" class="primaryNavigation__link">HOUSES</a></li>
+            <li class="primaryNavigation__menuItem"><a href="about_us.html" class="primaryNavigation__link">ABOUT US</a></li>
+            <li class="primaryNavigation__menuItem"><a href="reservations.html" class="primaryNavigation__link">RESERVATIONS</a></li>
+          </ul>
+        </nav>
+  </header>
 
     <main>
 
+      <div class="gallery__container"></div> 
+      <script src="./scripts/gallery.js" ></script>
+      <script>gallery.init(["img/house1/TinyHouse1-1.jpg", "img/house1/TinyHouse1-2.jpg", "img/house1/TinyHouse1-3.jpg", "img/house1/TinyHouse1-4.jpg", "img/house1/TinyHouse1-5.jpg", "img/house1/TinyHouse1-6.jpg", "img/house1/TinyHouse1-7.jpg", 
+                            "img/house2/TinyHouse2-1.PNG", "img/house2/TinyHouse2-2.PNG", "img/house2/TinyHouse2-3.jpg", "img/house2/TinyHouse2-4.PNG", "img/house2/TinyHouse2-5.PNG", "img/house2/TinyHouse2-6.PNG", "img/house2/TinyHouse2-7.PNG",
+                            "img/house3/TinyHouse3-1.jpg", "img/house3/TinyHouse3-2.jpg", "img/house3/TinyHouse3-3.jpg", "img/house3/TinyHouse3-4.jpg", "img/house3/TinyHouse3-5.jpg", "img/house3/TinyHouse3-6.jpg", "img/house3/TinyHouse3-7.jpg",
+                            "img/house4/TinyHouse4-1.jpg", "img/house4/TinyHouse4-2.jpg", "img/house4/TinyHouse4-3.jpg", "img/house4/TinyHouse4-4.jpg", "img/house4/TinyHouse4-5.jpg", "img/house4/TinyHouse4-6.jpg", "img/house4/TinyHouse4-7.jpg",
+                            "img/house5/TinyHouse5-1.jpg", "img/house5/TinyHouse5-2.jpg", "img/house5/TinyHouse5-3.jpg", "img/house5/TinyHouse5-4.jpg", "img/house5/TinyHouse5-5.jpg", "img/house5/TinyHouse5-6.jpg", "img/house5/TinyHouse5-7.jpg",])
+      </script>
+
     </main>
+
+    <section>Sit amet nulla facilisi morbi tempus iaculis urna. <br>Bibendum enim facilisis gravida neque convallis. Lacus laoreet non curabitur gravida arcu ac tortor. Dolor morbi non arcu risus quis. 
+      Pellentesque elit eget gravida cum. Lobortis scelerisque fermentum dui faucibus in ornare quam. Ut consequat semper viverra nam libero justo laoreet sit. 
+      Tempus imperdiet nulla malesuada pellentesque elit eget. <br> Cras semper auctor neque vitae tempus quam pellentesque. Purus ut faucibus pulvinar elementum. Lorem mollis aliquam ut porttitor leo a diam. 
+      In egestas erat imperdiet sed.
+      <br> <br>
+      Sed velit dignissim sodales ut eu sem. Sed adipiscing diam donec adipiscing tristique risus nec feugiat. Dui ut ornare lectus sit. Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec. 
+      Morbi tincidunt augue interdum velit euismod in pellentesque massa placerat. <br>Donec ultrices tincidunt arcu non sodales neque. Aliquet nibh praesent tristique magna sit amet. Penatibus et magnis dis parturient. 
+      Consequat mauris nunc congue nisi vitae. <br>Mus mauris vitae ultricies leo. Massa enim nec dui nunc. <br>Dictumst vestibulum rhoncus est pellentesque. Vel fringilla est ullamcorper eget nulla facilisi. Venenatis urna cursus eget nunc scelerisque viverra mauris in aliquam. 
+      Dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu. <br>Tristique senectus et netus et malesuada fames ac. 
+      Aliquet enim tortor at auctor. Eu lobortis elementum nibh tellus. Eu volutpat odio facilisis mauris sit amet massa vitae tortor.
+      <br> <br> <br>
+    </section>
+
+<div name="houseOne">
+  <h2 id="housesHeader">House One</h2>
+  <p id="housesText">Bibendum enim facilisis gravida neque convallis. Lacus laoreet non curabitur gravida arcu ac tortor. Dolor morbi non arcu risus quis. 
+  Pellentesque elit eget gravida cum. Lobortis scelerisque fermentum dui faucibus in ornare quam.</p>
+  <br><br><br>
+  <section>
+    <img src="./img/house1/TinyHouse1-1.jpg" alt="House One Image" class="imageHouseOne">
+    <em class="housesText">Address: adresse 24, 1234 by, land</em>
+  </section>
+</div>
+
+    <div name="houseTwo">
+      <h2>House Two</h2>
+      <p>Blandit massa enim nec dui nunc mattis enim ut. Tellus integer feugiat scelerisque varius morbi enim. 
+        Fermentum posuere urna nec tincidunt. Quis risus sed vulputate odio ut enim blandit. Laoreet non curabitur gravida arcu ac.</p>
+        <br><br><br>
+        <section>
+          <img src="./img/house2/TinyHouse2-1.PNG" alt="House Two Image" name="imageHouseTwo">
+          <em>Adress: adresse 24, 1234 by, land </em>
+        </section>
+    </div>
+
+    <div name="houseThree">
+      <h2>House Three</h2>
+      <p>Arcu non odio euismod lacinia at quis. Nulla aliquet porttitor lacus luctus accumsan tortor posuere. 
+        Tempus egestas sed sed risus. Maecenas pharetra convallis posuere morbi.</p>
+        <br><br><br>
+        <section>
+          <img src="./img/house3/TinyHouse3-1.jpg" alt="House Three Image" name="imageHouseThree">
+          <em>Adress: adresse 24, 1234 by, land </em>
+        </section>
+    </div>
+
+    <div name="houseFour">
+      <h2>House Four</h2>
+      <p>Ornare aenean euismod elementum nisi quis eleifend. Vel elit scelerisque mauris pellentesque pulvinar pellentesque. Blandit massa enim nec dui nunc mattis enim ut. 
+        Tellus integer feugiat scelerisque varius morbi enim. Fermentum posuere urna nec tincidunt.</p>
+        <br><br><br>
+        <section>
+          <img src="./img/house4/TinyHouse4-1.jpg" alt="House Four Image" name="imageHouseFour">
+          <em>Adress: adresse 24, 1234 by, land </em>
+        </section>
+    </div>
+
+    <div name="houseFive">
+      <h2>House Five</h2>
+      <p>Cras semper auctor neque vitae tempus quam pellentesque. 
+        Purus ut faucibus pulvinar elementum. Lorem mollis aliquam ut porttitor leo a diam. In egestas erat imperdiet sed.</p>
+        <br><br><br>
+        <section>
+          <img src="./img/house5/TinyHouse5-1.jpg" alt="House Five Image" name="imageHouseFive">
+          <em>Adress: adresse 24, 1234 by, land </em>
+        </section>
+    </div>
 
 
     <footer>
-        <nav class="footer">
-          <a href="https://da-dk.facebook.com/login/device-based/regular/login/?login_attempt=1" target="_blank"> <img src="/img/facebook_logo.png" alt="facebook page"></a>
-          <a href="https://twitter.com/?lang=da" target="_blank"> <img src="img/twitter_logo.png" alt="twitter page"></a>
-          <a href="about_us.html"><img src="img/phone_logo.png" alt="phone"></a>
-          <a href="about_us.html"><img src="img/fax_logo.png" alt="fax"></a>
-          <a href="mailto: SKAL DER AFSENDES EN MAIL"><img src="img/mail_logo.png" alt="mail"></a>
-        </nav>
-    </footer>
+      <nav class="footer">
+        <a href="https://da-dk.facebook.com/login/device-based/regular/login/?login_attempt=1" target="_blank"> <img src="/img/logos/facebook_logo.png" alt="facebook page"></a>
+        <a href="https://twitter.com/?lang=da" target="_blank"> <img src="img/logos/twitter_logo.png" alt="twitter page"></a>
+        <a href="about_us.html"><img src="img/logos/phone_logo.png" alt="phone"></a>
+        <a href="about_us.html"><img src="img/logos/fax_logo.png" alt="fax"></a>
+        <a href="mailto: SKAL DER AFSENDES EN MAIL"><img src="img/logos/mail_logo.png" alt="mail"></a>
+      </nav>
+  </footer>
     
+
+    <script src="./scripts/script.js" defer></script>
+
 </body>
 </html>

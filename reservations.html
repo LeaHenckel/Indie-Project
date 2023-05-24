@@ -4,22 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Indie projekt</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Indie project</title>
+    <link rel="stylesheet" href="import.css">
 </head>
 <body>
-    <header><img src="img/Spaced Out.USE.png" id="headerLogo" srcset="">
-        <nav>
-            <ul class="navbar_links">
-              <li class="navbar_linkitem"><a href="index.html" class="navbar_link">HOMEPAGE</a></li>
-              <li class="navbar_linkitem"><a href="houses.html" class="navbar_link">HOUSES</a></li>
-              <li class="navbar_linkitem"><a href="about_us.html" class="navbar_link">ABOUT US</a></li>
-              <li class="navbar_linkitem"><a href="reservations.html" class="navbar_link">RESERVATIONS</a></li>
-            </ul>
-          </nav>
-    </header>
+  <header>
+    <a href="index.html"><img src="img/logos/Spaced Out.USE.png" id="headerLogo">
+    <button class="burgerMenuButton">
+      <i data-feather="menu"></i>
+      <span class="sr-only"><menu></menu></span>
+    </button>
+      <nav>
+          <ul class="primaryNavigation" aria-hidden="true">
+            <li class="primaryNavigation__menuItem"><a href="index.html" class="primaryNavigation__link">HOMEPAGE</a></li>
+            <li class="primaryNavigation__menuItem"><a href="houses.html" class="primaryNavigation__link">HOUSES</a></li>
+            <li class="primaryNavigation__menuItem"><a href="about_us.html" class="primaryNavigation__link">ABOUT US</a></li>
+            <li class="primaryNavigation__menuItem"><a href="reservations.html" class="primaryNavigation__link">RESERVATIONS</a></li>
+          </ul>
+        </nav>
+  </header>
 
     <main>
+
+      <div class="contactForms">
+
+        <form class="form" action="thank_you.html" novalidate>
+          <div class="form__field">
+            <label for="inputName">Name</label>
+            <input type="text" class="form" id="inputName" name="navn" placeholder="Write your name" required>
+            <span class="form__message"></span>
+          </div>
+
+        <div class="form__field">
+          <label for="inputMail">E-mail</label>
+          <input type="email" class="form" id="inputMail" name="mail" placeholder="Write down your E-mail" required>
+          <span class="form__message"></span>
+        </div>
+
+        <div class="form__field">
+          <label for="inputPhone">Phone number</label>
+          <input type="tel" class="form" id="inputPhone" name="tlf" placeholder="Write your phone number" required >
+          <span class="form__message"></span>
+        </div>
+
+        <div class="form__field">
+          <label for="inputNote">Message</label>
+          <textarea></textarea>
+          <span class="form__message"></span>
+        </div>
+    
+        <div class="form__field">
+          <label for="inputSubmit"></label>
+          <button type="submit" class="form" id="inputSubmit" name="note" placeholder="Submit">Order now</button>
+          <span class="form__message"></span>
+        </div>
+    
+      </form>
+
+    </div>
 
     </main>
     
@@ -27,12 +69,15 @@
 
     <footer>
         <nav class="footer">
-          <a href="https://da-dk.facebook.com/login/device-based/regular/login/?login_attempt=1" target="_blank"> <img src="/img/facebook_logo.png" alt="facebook page"></a>
-          <a href="https://twitter.com/?lang=da" target="_blank"> <img src="img/twitter_logo.png" alt="twitter page"></a>
-          <a href="about_us.html"><img src="img/phone_logo.png" alt="phone"></a>
-          <a href="about_us.html"><img src="img/fax_logo.png" alt="fax"></a>
-          <a href="mailto: SKAL DER AFSENDES EN MAIL"><img src="img/mail_logo.png" alt="mail"></a>
+          <a href="https://da-dk.facebook.com/login/device-based/regular/login/?login_attempt=1" target="_blank"> <img src="/img/logos/facebook_logo.png" alt="facebook page"></a>
+          <a href="https://twitter.com/?lang=da" target="_blank"> <img src="img/logos/twitter_logo.png" alt="twitter page"></a>
+          <a href="about_us.html"><img src="img/logos/phone_logo.png" alt="phone"></a>
+          <a href="about_us.html"><img src="img/logos/fax_logo.png" alt="fax"></a>
+          <a href="mailto: SKAL DER AFSENDES EN MAIL"><img src="img/logos/mail_logo.png" alt="mail"></a>
         </nav>
     </footer>
+
+    <script src="/scripts/script.js" defer></script>
+    <script src="/scripts/thank_you.js"></script>
 </body>
 </html>
