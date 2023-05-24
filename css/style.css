@@ -34,7 +34,14 @@ img {
     text-decoration: none;
     color: white;
     font-family: inherit; 
+    transition: font-size 0.3s, border-bottom 0.3s;  /* adds a smooth transition animation for the font size and border-bottom changes. */
 }
+
+.primaryNavigation__link:hover {  /* targets the navigation links when they are hovered over */
+    font-size: 20px;
+    border-bottom: 2px solid white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
 
 /* Styling af burger menu */
 .burgerMenuButton {
