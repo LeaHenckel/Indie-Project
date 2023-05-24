@@ -67,7 +67,9 @@ main {
 
 
   #firstParagh {
-    margin-left: 320px; /* Adjust the spacing between the paragraph and the half circle */
+    margin-left: 530px; /* Adjust the spacing between the paragraph and the half circle */
+    font-style: italic;
+    font-size: smaller;
   }
 
   /* Styling af knappen */
