@@ -97,11 +97,23 @@ main {
     text-align: center;
   }
 
-/* Styling af billederne i footeren */
-.footer a img{
-    width:20px;
-    height:20px;
-}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer a {
+    display: inline-block;
+    margin: 0 10px; /* Adjust the margin as desired */
+  }
+  
+  /* Styling af billederne i footeren */
+  .footer a img {
+    width: 20px;
+    height: 20px;
+  }
 
 
 /* Styling af mobile version */
