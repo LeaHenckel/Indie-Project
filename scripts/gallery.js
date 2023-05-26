@@ -56,7 +56,7 @@
     const FOCUSED_IMAGE = document.createElement("img");
     FOCUSED_IMAGE.classList.add("gallery__focusedImage");
 
-  
+  GALLERY.append(FOCUSED_IMAGE);
   
     function createHouseSection(house, images) {
       const houseLabel = document.createElement("div");
@@ -105,7 +105,7 @@
         GALLERY.append(houseSection);
       }
   
-      GALLERY.append(FOCUSED_IMAGE);
+      
     }
   
     return {
@@ -118,3 +118,5 @@
 
 
 
+
+ 

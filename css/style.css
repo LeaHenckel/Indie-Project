@@ -1,4 +1,5 @@
 html, body {
+  box-sizing: border-box;
     background-color: #1D5534;
     color: white;
     box-sizing: border-box;
@@ -116,15 +117,37 @@ main {
   }
 
 
-/* Styling af mobile version */
- @media screen and (max-width: 660px) {
-    img {
-         width: 400px;
-         height: 400px!;
-    }
-    .burgerMenuButton {
-        display: inline;
-        border: none;
-        background: transparent;
-    }
-} 
+/* Styling af mobile version  */
+/* the following styles will only apply when the screen width is 660 pixels or less. */
+@media screen and (max-width: 660px) {
+  #headerLogo {
+    max-width: 100%;
+    height: auto;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: left; 
+    text-align: left; 
+  }
+  .burgerMenuButton {
+    display: inline;
+    border: none;
+    background: transparent;
+  }
+  nav {
+    display: none;
+  }
+  img#frontImage {
+    max-width: 100%;
+    height: auto;
+  }
+  #firstParagh {
+    font-size: 14px; 
+    margin-bottom: 10px;
+  }
+  .button {
+    margin-top: 10px; /* Add some space between the paragraph and the button */
+  }
+
+}
