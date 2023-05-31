@@ -1,22 +1,16 @@
 html, body {
-  box-sizing: border-box;
     background-color: #1D5534;
     color: white;
     box-sizing: border-box;
     font-family: Cambria, Georgia, serif;
 }
 
-/* .headerLogo {
-    font-size: larger;
-    width: 10px;
-    height: 10px;
-} */
-
 /* Styling af SPACED OUT logo  */
-img {
+ #headerLogo {
     width: 400px;
     height: 100px;
-}  
+} 
+
 
 /* Nedstående er navigation */
 .primaryNavigation {
@@ -42,7 +36,7 @@ img {
     font-size: 20px;
     border-bottom: 2px solid white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
+}
 
 /* Styling af burger menu */
 .burgerMenuButton {
@@ -57,20 +51,23 @@ main {
 
 .content {
     overflow: auto;
-  }
+    text-align: center;
+}
 
-#h1 {
-    text-align: right;  
+.slide h1 {
+  text-align: center;
+  margin-left: 800px; /* Adjust the value as needed */
 }
 
 /* Styling af billede i main */
 #frontImage {
-    width: 500px; /* Adjust the width as desired */
+    width: 800px; /* Adjust the width as desired */
     height: 500px; /* Adjust the height as desired */
     border-radius: 0 100% 100% 0; /* Adjust the border-radius as desired */
     /* background-color: rgb(208, 222, 148); Color used before picture was chosen - kept to use as a placeholder in case I change my mind */
     background-image: url("img/house1/TinyHouse1-1.jpg");
     float: left;
+    box-shadow: 0 0 10px rgb(225, 232, 170);;
   }
 
 
@@ -149,5 +146,5 @@ main {
   .button {
     margin-top: 10px; /* Add some space between the paragraph and the button */
   }
-
+ 
 }

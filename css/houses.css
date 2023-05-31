@@ -19,14 +19,14 @@
   max-width: 960px; /* Adjust the max-width as desired */
 }
 
-/*.imageHouseOne,
+/* .imageHouseOne,
 [name^="imageHouse"] {
   max-width: 10%;
   height: auto;
-}
- */
+} */
 
-/* .imageHouseOne {
+
+ .imageHouseOne {
     float: left; 
     margin-right: 10px;
 }
@@ -36,47 +36,56 @@
     align-items: center;
     justify-content: center;
     padding: 5%;
-        }
+  }
 
 #housesHeader, #housesText {
     padding-left: 20px;
-} */
+} 
 
-
-
-div[name="houseOne"],
-div[name="houseTwo"],
-div[name="houseThree"],
-div[name="houseFour"],
-div[name="houseFive"] {
-  border: 1px solid rgb(208, 222, 148);
-  padding: 10px;
-  margin-bottom: 10px;
-  font-size: x-small;
+.housesGrid {
   display: grid;
-  grid-template-columns: auto 1fr;
-  grid-gap: 10px;
+  grid-template-columns: 3fr 1fr 3fr; 
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 20px;
+  max-width: 800px; 
+  margin: 0 auto;  /* Centers the grid horizontally */
+}
+
+.house {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc; /* HUSK! fjern border før aflevering  */
 }
 
-div[name="houseOne"] img,
-div[name="houseTwo"] img,
-div[name="houseThree"] img,
-div[name="houseFour"] img,
-div[name="houseFive"] img {
-  max-width: 50px;
-  height: auto;
+.house-details {
+  flex-grow: 1;
+  padding-left: 20px;
 }
 
-div[name="houseOne"] h2,
-div[name="houseTwo"] h2,
-div[name="houseThree"] h2,
-div[name="houseFour"] h2,
-div[name="houseFive"] h2,
-div[name="houseOne"] p,
-div[name="houseTwo"] p,
-div[name="houseThree"] p,
-div[name="houseFour"] p,
-div[name="houseFive"] p {
-  margin: 0;
+.imageHouseOne {
+  object-fit: fill;
+/*   width: 100%; 
+  height: auto; */
+} 
+
+.housePicture {
+  background-size: cover;
+  background-position: center;
+}
+
+.housePicture1 img,
+.housePicture2 img,
+.housePicture3 img,
+.housePicture4 img,
+.housePicture5 img {
+  width: 500px; 
+  height: auto; 
+}
+
+.housesGrid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

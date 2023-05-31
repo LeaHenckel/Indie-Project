@@ -1,6 +1,6 @@
 $(document).ready(function() {
     // Interval for automatic slide transition (in milliseconds)
-    var interval = 5000; // 5 seconds
+    var interval = 3000; // 3 seconds
   
     // Function to switch slides
     function switchSlide() {
