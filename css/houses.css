@@ -54,9 +54,16 @@
 .house {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
   align-items: center;
   padding: 20px;
   border: 1px solid #ccc; /* HUSK! fjern border før aflevering  */
+}
+
+.house h2,
+.house p,
+.house a {
+  margin: 0;
 }
 
 .house-details {
