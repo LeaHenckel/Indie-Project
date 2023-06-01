@@ -17,14 +17,8 @@
   color: rgb(208, 222, 148);
   margin: 0 auto; /* Adjust the margin as desired */
   max-width: 960px; /* Adjust the max-width as desired */
+  margin-bottom: 40px;
 }
-
-/* .imageHouseOne,
-[name^="imageHouse"] {
-  max-width: 10%;
-  height: auto;
-} */
-
 
  .imageHouseOne {
     float: left; 
@@ -44,11 +38,12 @@
 
 .housesGrid {
   display: grid;
-  grid-template-columns: 3fr 1fr 3fr; 
+  grid-template-columns: 3fr 3fr; 
   grid-template-rows: repeat(5, 1fr);
   grid-gap: 20px;
   max-width: 800px; 
   margin: 0 auto;  /* Centers the grid horizontally */
+  margin-bottom: 50px;
 }
 
 .house {
@@ -56,14 +51,23 @@
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   padding: 20px;
-  border: 1px solid #ccc; /* HUSK! fjern border før aflevering  */
+  /*border: 1px solid #ccc;  HUSK! fjern border før aflevering  */
 }
 
 .house h2,
 .house p,
 .house a {
   margin: 0;
+}
+
+.house h2 {
+  margin-bottom: 1px;
+}
+
+.house p {
+  margin-top: 2px;
 }
 
 .house-details {
@@ -89,10 +93,17 @@
 .housePicture5 img {
   width: 500px; 
   height: auto; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(243, 241, 241, 0.2);
 }
 
 .housesGrid img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.gallery__focusedImage {
+  max-width: 500px; 
+  max-height: 500px; 
 }

@@ -12,6 +12,6 @@ li:hover{
 
 
 
-   li:hover {
+/*    li:hover {
     transform: scale(1.5);
-    }
+    } */
