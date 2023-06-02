@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer a {
+    display: inline-block;
+    margin: 0 10px; 
+  }
+  
+  /* Styling af billederne i footeren */
+  .footer a img {
+    width: 20px;
+    height: 20px;
+  }
