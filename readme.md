@@ -14,6 +14,8 @@ On the front page there will be a automatic slider showing four of the tiny hous
 
 The challenge was to develop a website that is not only aesthetically pleasing and user-friendly, but which can also engage visitors and convey my chosen indie concept in a convincing way. My work should also demonstrate that I have a basic understanding of the principles and disciplines I have been taught during the basic course.
 
+Link to my Figma Style Guide: https://www.figma.com/file/14yZ5RRk6LsCQA2Y77lUbQ/Indie-projekt-%2F-Tiny-House?type=design&node-id=0-1&t=bCjwwrCZ1iIi9zqK-0
+
  I hope you enjoy!
 
  - Lea
